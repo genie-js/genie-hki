@@ -10,8 +10,8 @@ read/write hotkey files for Age of Empires II
 
 [npm-image]: https://img.shields.io/npm/v/genie-hki.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/genie-hki
-[travis-image]: https://img.shields.io/travis/goto-bus-stop/genie-hki.svg?style=flat-square
-[travis-url]: https://travis-ci.org/goto-bus-stop/genie-hki
+[travis-image]: https://img.shields.io/travis/genie-js/genie-hki.svg?style=flat-square
+[travis-url]: https://travis-ci.com/genie-js/genie-hki
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: http://npm.im/standard
 
