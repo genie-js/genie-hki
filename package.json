@@ -1,17 +1,17 @@
 {
   "name": "genie-hki",
   "description": "read/write hotkey files for Age of Empires II",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": {
-    "url": "https://github.com/goto-bus-stop/genie-hki/issues"
+    "url": "https://github.com/genie-js/genie-hki/issues"
   },
   "devDependencies": {
     "standard": "^11.0.0",
     "tap-spec": "^5.0.0",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/goto-bus-stop/genie-hki",
+  "homepage": "https://github.com/genie-js/genie-hki",
   "keywords": [
     "age-of-empires",
     "aoc",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goto-bus-stop/genie-hki.git"
+    "url": "https://github.com/genie-js/genie-hki.git"
   },
   "scripts": {
     "test": "standard && node test | tap-spec"
