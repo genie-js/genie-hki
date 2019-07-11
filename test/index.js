@@ -41,3 +41,11 @@ test('reads HD file', function (t) {
   t.strictEqual(hki.groups.length, genieHki.HotkeyGroups.NumHotkeyGroups)
   t.end()
 })
+
+test('reads DE2 file', function (t) {
+  var hki = genieHki.load(read('files/de2.hki'))
+  t.strictEqual(hki.version, 3.0)
+  // TODO: update NumHotkeyGroups to this? Add separate AoC/DE2 consts?
+  t.strictEqual(hki.groups.length, 22)
+  t.end()
+})
